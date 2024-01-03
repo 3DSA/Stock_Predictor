@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/include
+Libs: -L/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib -lecpg
+Libs.private: -L/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib -lpgcommon -lpgport -lm

@@ -1,0 +1,14 @@
+prefix=/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env
+exec_prefix=/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env
+libdir=/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib
+includedir=/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib -lfreetype
+Libs.private: -lz -L/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

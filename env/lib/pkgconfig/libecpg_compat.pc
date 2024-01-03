@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/include
+Libs: -L/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib -lecpg_compat
+Libs.private: -L/Users/dhruvsusheelkar/Desktop/Stock_Predictor/env/lib -lpgcommon -lpgport -lpq -lm
